@@ -1,5 +1,11 @@
 # Proje 3: Veritabanı Güvenliği (PostgreSQL)
 
+> 22290742 - ŞEVVAL ENSARİOĞLU    
+> **Video Linki:** https://youtu.be/qGZ5sU5PNO0
+
+---
+
+---
 Bu proje, veritabanı güvenliği kapsamındaki temel tekniklerin PostgreSQL üzerinde nasıl uygulanacağını, MSSQL'deki karşılıklarıyla kıyaslayarak ele almaktadır.
 
 ## Proje Yapısı
