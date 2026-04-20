@@ -1,7 +1,5 @@
--- =============================================
 -- ADIM 1: ERİŞİM YÖNETİMİ (Authentication & Authorization)
 -- MSSQL Karşılıkları: SQL Server Authentication & Windows Authentication
--- =============================================
 
 -- 1. Mevcut rolleri ve yetkilerini kontrol edelim
 SELECT rolname, rolcanlogin, rolsuper, rolcreatedb

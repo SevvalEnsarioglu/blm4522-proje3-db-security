@@ -4,13 +4,13 @@ Bu proje, veritabanı güvenliği kapsamındaki temel tekniklerin PostgreSQL üz
 
 ## MSSQL vs PostgreSQL Karşılaştırma Tablosu
 
-| Özellik | Hoca Ne İstiyor (MSSQL) | Bizim Yaptığımız (PostgreSQL) |
-| :--- | :--- | :--- |
-| **Kimlik Doğrulama** | SQL Server Authentication | PostgreSQL LOGIN ROLE + Şifre |
-| **Erişim Kontrolü** | Windows Authentication | `pg_hba.conf` ile Host Tabanlı Erişim |
-| **Veri Şifreleme** | TDE (Transparent Data Encryption) | `pgcrypto` ile Sütun Bazlı Şifreleme |
-| **Injection Koruması** | SQL Injection Koruması | Prepared Statements + Güvenlik Testleri |
-| **Denetim** | SQL Server Audit | `pgaudit` / Trigger Bazlı Custom Audit |
+| Özellik | MSSQL                             | PostgreSQL                              |
+| :--- |:----------------------------------|:----------------------------------------|
+| **Kimlik Doğrulama** | SQL Server Authentication         | PostgreSQL LOGIN ROLE + Şifre           |
+| **Erişim Kontrolü** | Windows Authentication            | `pg_hba.conf` ile Host Tabanlı Erişim   |
+| **Veri Şifreleme** | TDE (Transparent Data Encryption) | `pgcrypto` ile Sütun Bazlı Şifreleme    |
+| **Injection Koruması** | SQL Injection Koruması            | Prepared Statements + Güvenlik Testleri |
+| **Denetim** | SQL Server Audit                  | `pgaudit` / Trigger Bazlı Custom Audit  |
 
 ## Proje Yapısı
 
