@@ -1,6 +1,6 @@
 # Proje 3: Veritabanı Güvenliği (PostgreSQL)
 
-Bu proje, veritabanı güvenliği kapsamındaki temel tekniklerin PostgreSQL üzerinde nasıl uygulanacağını, MSSQL'deki karşılıklarıyla kıyaslayarak ele almaktadır. Proje 1'deki modüler yapı korunarak, güvenlik senaryoları 4 ana adımda gruplandırılmıştır.
+Bu proje, veritabanı güvenliği kapsamındaki temel tekniklerin PostgreSQL üzerinde nasıl uygulanacağını, MSSQL'deki karşılıklarıyla kıyaslayarak ele almaktadır.
 
 ## MSSQL vs PostgreSQL Karşılaştırma Tablosu
 
