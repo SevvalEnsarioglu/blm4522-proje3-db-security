@@ -2,16 +2,6 @@
 
 Bu proje, veritabanı güvenliği kapsamındaki temel tekniklerin PostgreSQL üzerinde nasıl uygulanacağını, MSSQL'deki karşılıklarıyla kıyaslayarak ele almaktadır.
 
-## MSSQL vs PostgreSQL Karşılaştırma Tablosu
-
-| Özellik | MSSQL                             | PostgreSQL                              |
-| :--- |:----------------------------------|:----------------------------------------|
-| **Kimlik Doğrulama** | SQL Server Authentication         | PostgreSQL LOGIN ROLE + Şifre           |
-| **Erişim Kontrolü** | Windows Authentication            | `pg_hba.conf` ile Host Tabanlı Erişim   |
-| **Veri Şifreleme** | TDE (Transparent Data Encryption) | `pgcrypto` ile Sütun Bazlı Şifreleme    |
-| **Injection Koruması** | SQL Injection Koruması            | Prepared Statements + Güvenlik Testleri |
-| **Denetim** | SQL Server Audit                  | `pgaudit` / Trigger Bazlı Custom Audit  |
-
 ## Proje Yapısı
 
 - **`sql/`**: Güvenlik senaryolarının SQL kodları.
